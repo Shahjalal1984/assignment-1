@@ -4,11 +4,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    width: 
+    margin: 0 2%;
 }
-section{
-    width: 90%;
-    margin: 100px auto;
+#section-1{
+    width: 95%;
+    margin: 50px auto;
 }
 .section-content-wrapper{
     display: flex;
@@ -20,7 +20,7 @@ section{
 .left-content h1{
     font-size: 50px;
     margin-bottom: 50px;
-    padding-top: 20%;
+    padding-top: 25%;
 }
 .orange{
     color:orange;
@@ -34,9 +34,9 @@ section{
     margin-top: 50px;
     color: #fff;
 }
-.right-content{
+.right-content {
     width: 50%;
-    padding: 0 10px;
+    padding: 0% 0 12% 5%;
 }
 .right-content img{
     width: 100%;
@@ -45,24 +45,24 @@ section{
 }
 
 #section-2{
+    width: 100%;
     background-image: url(images/shapes/banneer.png);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .left-content img{
     object-fit: contain;
     width: 100%;
     padding: 10% 15% 0% 20%;}
-.right-content {
-    padding: 10% 5% 5% 5%;
-}
+
 .right-content h1{
     font-size: 50px;
+    padding-top: 5rem;
     margin-bottom: 50px;
 }
 .right-content p{
     line-height: 2;
+    padding-left: 1rem;
 }
 .right-content .button-order{
     display: inline-block;
@@ -72,4 +72,62 @@ section{
     border-radius: 25px;
     margin-top: 3rem;
     color: #fff;
+}
+#section-3{
+    width: 95%;
+    margin: 0 auto;
+}
+.section-3-header{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    padding: ;
+}
+.section-3-header h2{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.section-3-header p{
+    text-align: justify;
+}
+.recepie-wrapper{
+    display: flex;
+}
+.recepie-1 {
+    width: 33.33%;
+    overflow: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px 1px grey;
+    margin: 0px 20px;
+    padding: 15px 15px 20px 15px;
+    text-align: justify;
+}
+
+.recepie-1 img{
+    object-fit: contain;
+    width: 100%;
+    border-radius: 20px;
+}
+#recepie-3 {
+    heigh:29%;
+    object-fit:cover;
+}
+.recepie-1 h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+footer{
+    width: 100%;
+    background-color: #002211;
+    text-align: center;
+    padding: 50px 0px;
+    color: #ffff;
+    margin-top: 50px;
+}
+footer h3{
+    font-size: 40px;
+    padding-bottom: 50px;
 }
